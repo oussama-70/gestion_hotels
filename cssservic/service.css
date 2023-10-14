@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: "Raleway", sans-serif;
+  
+}
+.Pag{
+    height: 100%;
+}
+.clear{
+    clear:both;
+}
+
+/* end general things */
+
+
+/* start section header */
+.header{
+  height:60px;
+  width:100%;
+  position:absolute;
+  z-index:1; 
+}
+ .con{
+    width:90%;
+    margin:auto;
+
+}
+.header .con .title{
+    width:40%;
+    float: left;
+    font-weight:bold;
+    color:white;
+    padding: 10px 0 0 40px;
+    text-transform: capitalize;
+}
+ span{
+    color:#1e90ff;
+}
+.header .con .links{
+    width:60%;
+    float: left;
+    list-style: none;
+}
+.header .con .links li{
+    display: inline-block;
+    margin-left:70px;
+    margin-top: 20px;
+}
+.header .con .links li a{
+    text-decoration: none;
+    color:white;
+    font-weight:bold;
+    padding:5px;
+    font-size: 16px;
+    display:inline-block;
+    text-transform: capitalize;
+    transition: 0.3s;
+    
+}
+.header .con .links li a:hover{
+    color:#1e90ff;
+}
+/* end section header */
+/*  start section home */
+.home{
+    width: 100%;
+    height: 50VH;
+    background-image:URL(../images/services.jpg);
+    background-size: cover;
+}
+.home .con {
+    position: absolute;
+    width: 150px;
+    margin-top:  150PX;
+    margin-left: 550PX; 
+    align-items: center;
+
+}
+.home .con h1{
+    font-size: 50px;
+    color: #1e90ff;
+    padding-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+/* start section service */
+
+.cont{
+    width:90%;
+    margin:auto;
+}
+.whatWeDo{
+    text-align:center;
+    margin: 100px 0;
+
+    
+}
+.whatWeDo .p1 ,.whatClientSay .firstSay .p1{
+    font-size: 17px;
+    background-color: #1e90ff;
+    display: inline-block;
+    color:white;
+    font-weight: bold;
+    margin-bottom:20px;
+}
+.whatWeDo .title-service ,.whatClientSay .firstSay h3{
+    font-weight: bold;
+    font-size:35px;
+    margin-bottom:10px;
+}
+.whatWeDo .p2 ,.whatClientSay .firstSay .p2{
+    color: #6c757d;
+    line-height:25px;
+    margin-bottom:20px;
+    font-size: 18px;
+}
+.whatWeDo .btn-service ,.whatClientSay .firstSay .btn-firstSay{
+    width:125px;
+    height:35px;
+    border:0;
+    background-color: #1e90ff;
+    border-radius: 2px;
+    color:aliceblue;
+    cursor:pointer;
+    transition:.5s;
+}
+.whatWeDo .btn-service:hover,
+.whatClientSay .firstSay .btn-firstSay:hover
+{
+    transform: scale(1.1);
+}
+
+.firstSay {
+    float:left;
+}
+.SecondSay{
+    width:60%;
+    float:left;
+}
+
+.whatClientSay{
+    width:100%;
+   margin-bottom: 100px;
+}
+.whatClientSay .firstSay{
+    width:40%;
+}
+.whatClientSay .firstSay h3{
+    font-size:30px;
+}
+.SecondSay-item{
+    width: 40%;
+    float:left;
+    margin-left: 50px;
+
+}
+.SecondSay-item .SecondSay-item-p1{
+    border:1px solid gray;
+    font-size: 16px;
+    padding:30px;
+    text-align: center;
+    color:#6c757d;
+    margin-bottom: 10px;
+}
+.SecondSay-item .img{
+    width:85px;
+    height:85px;
+    float:left;
+    margin-right: 10px;
+    
+
+}
+
+.SecondSay-item .img img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+}
+.infoclient{
+    float:left;
+    margin-top: 20px;
+}
+.infoclient h2{
+    font-size:20px;
+    color:#1e90ff;
+}
+.infoclient p{
+    color:#6c757d;
+}
+
+
+
+/* end section service */
+
+
+/* section footer */
+.footer{
+    width:100%;
+    height:200px;
+    background-color: black;
+}
+.footer .f1{
+ text-align:center;
+ color:white;
+ margin-bottom: 25px;
+
+ letter-spacing: 3px;
+ padding-top: 1%;
+}
+.footer .f1 a{
+    text-decoration: none;
+    color: #1e90ff;
+    transition: 0.5s;
+ 
+}
+.footer .f1 a:hover{
+    color:white;
+}
+.footer .info{
+text-align: center;
+margin-bottom: 20px;
+}
+.footer .info a{
+    text-decoration: none;
+    color:#1e90ff;
+    border-radius:40px;
+    transition: 0.7s;
+    padding:1%;
+
+}
+.footer .info a:hover{
+    background-color:white;
+
+}
+.footer .info a i{
+    color:#1e90ff;
+    border-radius:50%;
+    width:30px;
+    height:30px;
+    line-height:middle;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.footer .info h2{
+    color:white;
+    margin-bottom: 20px;
+}
+.footer .text{
+text-align:center;
+ color:white;
+ margin-bottom: 20px;
+ letter-spacing: 3px;
+ padding-top: 1%;
+ margin-top:-15px ;
+}
+.footer .text a{
+    color: #1e90ff;
+    margin-right: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.footer .text a:hover{
+    color:white
+}
+
+/* end section footer */
+
+

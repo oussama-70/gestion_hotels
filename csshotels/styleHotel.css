@@ -1,0 +1,259 @@
+/* general things */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Raleway", sans-serif;
+}
+.clear{
+    clear:both;
+}
+
+/* start section header */
+.header{
+    height:60px;
+    width:100%;
+    position:absolute;
+    z-index:1; 
+  }
+   .con{
+      width:90%;
+      margin:auto;
+  
+  }
+  .header .con .title{
+      width:40%;
+      float: left;
+      font-weight:bold;
+      color:white;
+      padding: 10px 0 0 40px;
+      text-transform: capitalize;
+  }
+   span{
+      color:#1e90ff;
+  }
+  .header .con .links{
+      width:60%;
+      float: left;
+      list-style: none;
+  }
+  .header .con .links li{
+      display: inline-block;
+      margin-left:70px;
+      margin-top: 20px;
+  }
+  .header .con .links li a{
+      position: relative;
+      text-decoration: none;
+      color:white;
+      font-weight:bold;
+      padding:5px;
+      font-size: 16px;
+      display:inline-block;
+      text-transform: capitalize;
+      transition: 0.3s;
+      
+  }
+  .header .con .links li a:after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 3px;
+    width: 0;
+    left:0;
+    bottom:-7px;
+    transition: 0.3s;
+}
+.header .con .links li a:hover:after{
+    width: 100%;
+}
+  .header .con .links li a:hover{
+      color:#1e90ff;
+  }
+  /* end section header */
+  
+  /*  start section home */
+  .home{
+      width:100%;
+      height:40vh;
+      background-image:url(../images/about.jpg);
+      background-size:cover;
+      position:relative;
+      margin-bottom: 100px;
+  }
+  .overly{
+      position:absolute;
+      width:100%;
+      height: 100%;
+      top:0;
+      left:0;
+      background-color: rgba(0, 0, 0, 0.7);
+      
+  }
+.home .titile{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index:1;
+    color:white;
+}
+/* end section home */
+.title-hotel{
+    text-align: center;
+    color:#1e90ff;
+    font-size: 50px;
+    margin-bottom: 50px;
+    
+    /* background-color: rgb(240, 255, 245); */
+}
+/* start section hotels */
+.content-hotel1{
+    width:200%; 
+    margin-bottom: 50px; 
+}
+.content-hotel1 .hotel1{
+    width: 50%;
+    box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+    float: left;
+    
+}
+.content-hotel1 .hotel1 .img{
+    width:50%;
+    height:400px;
+    float:left;
+    margin-right:5%;   
+}
+.content-hotel1 .hotel1 .img img{
+    width:100%;
+    height:100%;
+    transition: .3s;
+}
+.content-hotel1 .hotel1 .img img:hover{
+    transform: scale(1.1)
+}
+.hotel1 .content{
+    width:45%;
+    height:350px;
+    float: left;
+    padding-top: 50px;  
+}
+.hotel1 .content h2{
+    color: #24416B;
+    margin-bottom: 10px;
+}
+.hotel1 .content i{
+    color: #CC8C18;
+    font-size: 20px;
+    letter-spacing: 12px;
+    margin-bottom: 20px;
+}
+.hotel1 .content p{
+    line-height: 35px;
+    color: #8c8a8a;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.hotel1 .content h5{
+    font-size: 15px;
+    color: #627795;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 25px;
+}
+.hotel1 .content button{
+    width: 190px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    background-color: #35b4f3;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .3s;
+}
+.hotel1 .content button:hover{
+    transform: scale(1.1);
+}
+.hotel1 .content button a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.content-hotel1 .hotel2{
+ float: left;
+ width:50%;
+}
+
+/* section footer */
+.footer{
+    width:100%;
+    height:200px;
+    background-color: black;
+}
+.footer .f1{
+ text-align:center;
+ color:white;
+ margin-bottom: 25px;
+
+ letter-spacing: 3px;
+ padding-top: 1%;
+}
+.footer .f1 a{
+    text-decoration: none;
+    color: #1e90ff;
+    transition: 0.5s;
+ 
+}
+.footer .f1 a:hover{
+    color:white;
+}
+.footer .info{
+text-align: center;
+margin-bottom: 20px;
+}
+.footer .info a{
+    text-decoration: none;
+    color:#1e90ff;
+    border-radius:40px;
+    transition: 0.7s;
+    padding:1%;
+
+}
+.footer .info a:hover{
+    background-color:white;
+
+}
+.footer .info a i{
+    color:#1e90ff;
+    border-radius:50%;
+    width:30px;
+    height:30px;
+    line-height:middle;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.footer .info h2{
+    color:white;
+    margin-bottom: 20px;
+}
+.footer .text{
+text-align:center;
+ color:white;
+ margin-bottom: 20px;
+ letter-spacing: 3px;
+ padding-top: 1%;
+ margin-top:-15px ;
+}
+.footer .text a{
+    color: #1e90ff;
+    margin-right: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.footer .text a:hover{
+    color:white
+}
+
+/* end section footer */
+

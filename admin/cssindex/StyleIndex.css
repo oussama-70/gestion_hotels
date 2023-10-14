@@ -1,0 +1,47 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+.main{
+    width:35%;
+    height: 370px;
+    text-align: center;
+    margin:auto;
+    margin-top: 20vh;
+    padding: 1%;
+    border: 1px solid gray;
+    box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+    border-radius: 10px;
+}
+.main h1{
+    margin:20px 0;
+}
+.main input,button{
+    width:80%;
+    height:40px;
+    border:1px solid gray;
+    padding: 3%;
+    border-radius: 5px;
+
+
+}
+.main  .input1{
+    margin-top: 30px;
+}
+
+.main input:hover{
+    border: #1e90ff 2px solid;
+}
+.main button{
+    background-color:#1e90ff;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border: 0;
+    margin-bottom: 10px;
+    
+}
+
